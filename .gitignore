@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+# OS and editors
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/
+# Private configuration and generated assets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+private/
+backup/
+backups/
+exports/
+artifacts/
+*.log
+*.csv
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.pbix
+*.json
