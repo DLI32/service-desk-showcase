@@ -33,6 +33,7 @@ artifacts/
 *.csv
 *.pdf
 *.png
+!docs/assets/*.png
 *.jpg
 *.jpeg
 *.pbix
