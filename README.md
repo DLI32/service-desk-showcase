@@ -1,3 +1,5 @@
+[English version](README_EN.md)
+
 # DAYITOP Service Desk Showcase
 
 一份可公开分享的服务台实战资料：把电话入口、工单 SLA 与生命周期、Fabric 数据分析串成可解释、可验收的流程。适合 IT 服务台负责人、ITSM 实施人员、数据分析师，以及准备演示环境的工程师。
@@ -49,3 +51,17 @@ flowchart LR
 - 工作目录、导出文件和定义备份可能包含真实数据；必须留在仓库外。`.gitignore` 不能替代公开前复核。
 
 来源与脱敏边界见 [SOURCES.md](docs/SOURCES.md)。代码与文档按 [MIT](LICENSE) 许可发布。
+
+## 报表截图（2026-11-15，阅读视图）
+
+![电话 SLA 报表](docs/assets/ccc-telephony-sla.png)
+
+电话 SLA 报表（阿里云呼叫中心）：7 通，放弃率 28.6%，ASA 14.50 秒，AHT 3.59 分钟。顶部放弃率卡片带趋势轴，显示所选日期中最晚一天的值（全选时为 11-13 当天 0.0%）；聚合放弃率以分段表 Overall 行 28.6% 为准。
+
+![JSM SLA 看板总览](docs/assets/jsm-sla-dashboard-page-1.png)
+
+JSM SLA 看板总览：87 张工单，首次响应达标率 90.91%。
+
+![CSAT 与 VoC 分析](docs/assets/csat-voc-analysis.png)
+
+CSAT 与 VoC 分析：平均分 4.40，回复 5 条，回复率 45.5%。
